@@ -12,7 +12,7 @@ LOCAL_MODULE := hey-ndk
 # Each module name must be unique and not contain any spaces. The build system, when it generates the final shared-library file, automatically adds the proper prefix and suffix to the name that you assign to LOCAL_MODULE. For example, the example that appears above results in generation of a library called libhey-ndk.so.
 
 # The next line enumerates the source files, with spaces delimiting multiple files:
-LOCAL_SRC_FILES := hello.c
+LOCAL_SRC_FILES := hello.c hellocpp.cpp
 # The LOCAL_SRC_FILES variable must contain a list of C and/or C++ source files to build into a module.
 
 # The last line helps the system tie everything together:
